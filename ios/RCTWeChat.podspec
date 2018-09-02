@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/weflex/react-native-wechat.git", :tag => "master" }
   s.source_files  = "**/*.{h,m}"
+  s.exclude_files = "RCTWeChatTests/*.{h,m}",
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
